@@ -1,0 +1,88 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+tiny_nation  = {
+	trigger = {
+		NOT = {
+			OR = { 
+				total_pops = 1250000 #1.25 million POPs/5 Million population
+				is_culture_group = germanic
+			}
+
+		}
+	}
+	global_population_growth = 0.008
+	mobilisation_economy_impact = -0.50
+	supply_consumption = -0.50
+	mobilisation_size = 0.04
+	tax_efficiency = 0.25 #25% boost
+	icon = 6
+}
+
+small_nation  = {
+	trigger = {
+		total_pops = 1250000 #1.25 million POPs/5 Million population
+		NOT = { 
+			OR = { 
+				total_pops = 3750000 #3.75 million POPs/15 million population
+				is_culture_group = germanic
+			}
+		}
+	}
+	global_population_growth = 0.002  # Was 0.004
+	mobilisation_economy_impact = -0.25
+	supply_consumption = -0.25
+	mobilisation_size = 0.02
+	tax_efficiency = 0.15 #15% boost
+	icon = 6
+}
+
+medium_nation  = {
+	trigger = {
+		total_pops = 3750000 #3.75 million POPs/15 Million population
+		NOT = { 
+			OR = {
+				total_pops = 7500000 #7.5 million POPs/30 Million population
+				is_culture_group = germanic
+				civilized = no
+			}
+			
+		}
+	}
+	global_population_growth = 0.001
+	mobilisation_economy_impact = -0.10
+	supply_consumption = -0.10
+	tax_efficiency = 0.10 #10% boost
+	icon = 6
+}
+
+unciv_boost  = {
+	trigger = {
+		civilized = no
+	}
+	farm_rgo_eff = 0.15
+	mine_rgo_eff = 0.15
+	icon = 6
+}
+
+china_mob  = {
+	trigger = {
+		civilized = no
+		total_pops = 15000000
+	}
+	mobilisation_size = -0.10
+	research_points_modifier = -2.0
+	icon = 6
+}
+
+nation_blockaded  = {
+	trigger = {
+		blockade = 0.85
+		num_of_ports = 15
+	}
+	war_exhaustion = 0.005
+	global_population_growth = -0.001
+	factory_throughput = -0.1
+	icon = 6
+}

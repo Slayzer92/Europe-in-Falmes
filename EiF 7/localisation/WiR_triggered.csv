@@ -1,0 +1,34 @@
+#############################################;;;;;;;;;;;;;;x
+#World in Revolution MP game triggered modifiers localisation;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+500_prestige;Low prestige decay;;;;;;;;;;;;;x
+1000_prestige;Medium prestige decay;;;;;;;;;;;;;x
+3000_prestige;High prestige decay;;;;;;;;;;;;;x
+centralized_1;Very high centralization;;;;;;;;;;;;;x
+centralized_2;High centralization;;;;;;;;;;;;;x
+centralized_3;Centralization;;;;;;;;;;;;;x
+decentralized_1;Decentralization;;;;;;;;;;;;;x
+decentralized_2;High decentralization;;;;;;;;;;;;;x
+decentralized_3;Overextension;;;;;;;;;;;;;x
+unciv_boost;Serfdom and slavery;;;;;;;;;;;;;x
+nation_blockaded;Total blockade;;;;;;;;;;;;;x
+rock_the_casbah_title;Rock the Casbah;;;;;;;;;;;;;x;
+rock_the_casbah_desc;Berber renaissance;;;;;;;;;;;;;x;
+african_ambition_title;African ambition;;;;;;;;;;;;;x;
+african_ambition_desc;Conquer and assimilate African people!;;;;;;;;;;;;;x;
+abandon_the_old_ways_title;Western influences;;;;;;;;;;;;;x;
+abandon_the_old_ways_desc;Abandon the old ways and embrace the western civilization. It's a brave new world!;;;;;;;;;;;;;x;
+rise_of_the_egyptian_empire_title;Rise of Egypt;;;;;;;;;;;;;x;
+rise_of_the_egyptian_empire_desc;Egyptian renaissance;;;;;;;;;;;;;x;
+rise_of_the_persian_empire_title;Rise Persia;;;;;;;;;;;;;x;
+rise_of_the_persian_empire_desc;Persian renaissance;;;;;;;;;;;;;x;
+EVTNAME12341234;You're over infamy limit!;;;;;;;;;;;;;x
+EVTDESC12341234;You're the worst scum of the earth and you deserve what's coming for you;;;;;;;;;;;;;x
+EVTNAME123412345;You're below infamy limit once again!;;;;;;;;;;;;;x
+EVTDESC123412345;Good boy. Here's a cookie.;;;;;;;;;;;;;x
+vuk_karadzic_reform_title;Launch Vuk Karadzic's Reforms;;;;;;;;;;;;;x;
+vuk_karadzic_reform_desc;In 1850 Karadzic reformed Serbian language making it different from church Slavonic  closer to common folk speech and easier to learn.;;;;;;;;;;;;;x;
+karadzic_reforms;Karadzic Reforms;;;;;;;;;;;;;x
+desc_karadzic_reforms;Vuk Karadzic has reformed language education in our schools. Our children can now learn the Serbian language more easily than before.;;;;;;;;;;;;;x
+Dredge_the_Bosphorus_title;Dredge the Bosphorus.;;;;;;;;;;;;;x
+Dredge_the_Bosphorus_title;The Bosphorus has fallen into disrepair and can no longer be used by shipping. We can change this by dredging it out.;;;;;;;;;;;;;x
