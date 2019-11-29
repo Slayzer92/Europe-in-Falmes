@@ -1,0 +1,620 @@
+#New Inventions for PUIR
+
+#Production Inventions
+accelerated_vulcanization = {
+	limit = { 
+                organic_chemistry = 1
+		year = 1900
+        }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			year = 1910
+		}
+
+		modifier = {
+			factor = 2
+			year = 1920
+		}
+
+		modifier = {
+			factor = 2
+			invention = i_scientific_management
+		}
+			
+	}
+	effect = {
+		rgo_goods_output = {
+			rubber = 0.5
+		} 
+	}
+}
+
+silk_waste_spinning = {
+	limit = { 
+                mechanical_production = 1
+        }
+	chance = {
+		base = 5
+		modifier = {
+			factor = -7
+				NOT = { year = 1880 }
+		}
+		modifier = {
+			factor = 2
+			invention = industrial_rnd_investments 
+		}
+	}
+	effect = {
+		rgo_goods_output = {
+			silk = 0.5
+		} 
+	}
+}
+
+#POP growth inventions
+thomas_robert_malthus ={
+	limit = { 
+		malthusian_thought = 1 
+	}
+	chance = {
+		base = 2
+		modifier = {
+			factor = 5 
+			civilized = no
+		}
+		modifier = {
+			factor = 8
+			any_neighbor_country = {
+				invention = thomas_robert_malthus
+			}
+		}
+
+	}
+	effect = {
+		pop_growth = 0.0001
+	}	
+}
+
+#Prestige Inventions
+
+#Early Classical Theory
+adam_smith = {
+	limit = { early_classical_theory_and_critique = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 2
+			trade_policy = free_trade
+		}
+	}
+	effect = {
+		permanent_prestige = 1	 
+	}
+}
+
+jean_baptiste_say = {
+	limit = { early_classical_theory_and_critique = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 2
+			trade_policy = free_trade
+		}
+	}
+	effect = {
+		permanent_prestige = 1	 
+	}
+}
+
+david_ricardo = {
+	limit = { early_classical_theory_and_critique = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 2
+			trade_policy = free_trade
+		}
+	}
+	effect = {
+		permanent_prestige = 1	 
+	}
+}
+
+#Associationism
+william_hamilton = {
+	limit = { associationism = 1 }
+	chance = {
+		base = 2
+	}
+	effect = {
+		permanent_prestige = 5
+	}	
+}
+
+soren_kierkegaard  = {
+	limit = { associationism = 1 }
+	chance = {
+		base = 2
+	}
+	effect = {
+		permanent_prestige = 5
+	}	
+}
+
+alexander_bain  = {
+	limit = { associationism = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = john_stuart_mill
+		}
+	}
+	effect = {
+		permanent_prestige = 5
+	}	
+}
+
+thomas_brown  = {
+	limit = { associationism = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = alexander_bain
+		}
+	}
+	effect = {
+		permanent_prestige = 5
+	}	
+}
+
+wilhelm_wundt  = {
+	limit = { experimental_psychology = 1 }
+	chance = {
+		base = 2
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+edward_titchener  = {
+	limit = { experimental_psychology = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = wilhelm_wundt
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+william_james  = {
+	limit = { experimental_psychology = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			functionalism = 1
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+gs_hall  = {
+	limit = { experimental_psychology = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			biologism = 1
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+hermann_ebbinghaus  = {
+	limit = { experimental_psychology = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			biologism = 1
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+mary_calkins  = {
+	limit = { experimental_psychology = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			invention = william_james
+		}
+		modifier = {
+			factor = 3
+			year = 1890
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+#Psychological Intelligence
+francis_galton  = {
+	limit = { psychological_intelligence = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = darwinism
+		}
+	}
+	effect = {
+		permanent_prestige = 5
+	}	
+}
+
+alfred_binet  = {
+	limit = { psychological_intelligence = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			invention = francis_galton
+		}
+		modifier = {
+			factor = 3
+			year = 1890
+		}
+	}
+	effect = {
+		education_efficiency = 0.05
+		permanent_prestige = 5
+	}
+	core_pop_consciousness_modifier = 0.01	
+}
+
+charles_spearman  = {
+	limit = { psychological_intelligence = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			invention = francis_galton
+		}
+		modifier = {
+			factor = 3
+			invention = alfred_binet
+		}
+	}
+	effect = {
+		education_efficiency = 0.05
+		permanent_prestige = 5
+	}	
+}
+
+#Psychoanalysis
+sigmund_freud  = {
+	limit = { psychoanalysis = 1 }
+	chance = {
+		base = 2
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+carl_jung  = {
+	limit = { psychoanalysis = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = sigmund_freud
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+alfred_adler  = {
+	limit = { psychoanalysis = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = sigmund_freud
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+anna_freud  = {
+	limit = { psychoanalysis = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 4
+			year = 1920
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+karen_horney  = {
+	limit = { psychoanalysis = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			invention = sigmund_freud
+		}
+		modifier = {
+			factor = 3
+			year = 1920
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+ivan_pavlov  = {
+	limit = { behaviorism = 1 }
+	chance = {
+		base = 2
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+el_thorndike  = {
+	limit = { behaviorism = 1 }
+	chance = {
+		base = 2
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+jb_watson  = {
+	limit = { behaviorism = 1 }
+	chance = {
+		base = 2
+		modifier = {
+		factor = 2
+			invention = ivan_pavlov
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+ec_tolman  = {
+	limit = { behaviorism = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = jb_watson
+		}
+	}
+	effect = {
+		permanent_prestige = 5		
+	}
+}
+
+# Functionalism
+jg_taylor = {
+	limit = { functionalism = 1 }
+	chance = {
+		base = 2
+	}
+	effect = {
+		shared_prestige = 5
+	}	
+}
+
+heinrich_schliemann = {
+	limit = { functionalism = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = jg_taylor
+		}
+		modifier = {
+			factor = -4
+			NOT = { year = 1860 }
+		}
+	}
+	effect = {
+		shared_prestige = 5
+	}	
+}
+
+#Social Science
+franz_boas = {
+	limit = { social_science = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 4
+			invention = social_anthropology
+		}
+	}
+	effect = {
+		colonial_prestige = 0.1 
+		shared_prestige = 5
+	}	
+}
+
+flinders_petrie = {
+	limit = { social_science = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = jg_taylor
+		}
+		modifier = {
+			factor = 2
+			invention = heinrich_schliemann
+		}
+	}
+	effect = {
+		shared_prestige = 5
+	}	
+}
+
+ferdinand_de_saussure = {
+	limit = { social_science = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = darwinism
+		}
+	}
+	effect = {
+		shared_prestige = 5
+		diplomatic_points = 0.25
+	}	
+}
+
+emile_dirkheim = {
+	limit = { social_science = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = darwinism
+		}
+		modifier = {
+			factor = 2
+			social_alienation = 1
+		}
+	}
+	effect = {
+		education_efficiency = 0.10
+		shared_prestige = 5
+	}	
+}
+
+max_weber = {
+	limit = { social_science = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = emile_dirkheim
+		}
+		modifier = {
+			factor = 2
+			invention = karl_marx
+		}
+	}
+	effect = {
+		shared_prestige = 5
+	}	
+		political_reform_desire = 0.2
+}
+
+#Social Alienation
+arthur_evans = {
+	limit = { social_alienation = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = franz_boas
+		}
+	}
+	effect = {
+		shared_prestige = 10
+	}	
+}
+
+marcel_mauss = {
+	limit = { social_alienation = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = franz_boas
+		}
+	}
+	effect = {
+		education_efficiency = 0.10
+		shared_prestige = 10
+	}	
+}
+
+branislaw_malinowski = {
+	limit = { social_alienation = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = franz_boas
+		}
+	}
+	effect = {
+		influence = 0.1
+		shared_prestige = 10
+	}	
+}
+
+cl_wooley = {
+	limit = { social_alienation = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = arthur_evans
+		}
+		modifier = {
+			factor = 2
+			year = 1920
+		}
+	}
+	effect = {
+		shared_prestige = 10
+	}	
+}
