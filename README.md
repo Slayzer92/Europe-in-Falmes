@@ -1,0 +1,2 @@
+# Europe in Falmes is Victoria 2 Multiplayer balance mod, primarily made for our [discord group](https://discord.gg/rVhxgBF).
+# Mod focuses on balance with couple new nations, new formable tags and decisions. Certain issues from vanilla have been solved meaning that mod should be more stable and quicker in multiplayer.
