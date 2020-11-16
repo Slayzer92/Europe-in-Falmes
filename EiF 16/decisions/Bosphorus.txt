@@ -1,0 +1,29 @@
+political_decisions = {
+	open_bosphorus = {
+	picture = constantinople
+		title = "Dredge the Bosphorus"
+		desc = "The Bosphorus has fallen into disrepair and can no longer be used by shipping. We can change this by dredging it out."
+		potential = {
+			NOT = { is_canal_enabled = 4 }
+			OR = {
+				#Istanbul
+				controls = 860
+				#Uskudar
+				controls = 861
+			}
+		}
+		allow = {
+			money = 500000
+			NOT = { is_canal_enabled = 4 }
+			controls = 860
+			controls = 861
+		}
+		effect = {
+			enable_canal = 4
+			treasury = -500000
+			860 = {
+				province_event = {id = 1100 days = 0}
+				}
+		}
+	}
+}

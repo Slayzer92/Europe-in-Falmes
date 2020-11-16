@@ -1,0 +1,77 @@
+political_decisions = {
+	move_capital_to_moscow = {
+		potential = {
+			tag = RUS
+			owns = 1008 # Moscow
+			capital = 994
+		}
+		
+		allow = {
+			owns = 1008 # Moscow
+		}
+		
+		effect = {
+			treasury = 500000
+			capital = 1008
+			prestige = 20
+			add_accepted_culture = kazak
+			add_accepted_culture = tatar
+			
+			336 = { secede_province = FIN }
+			337 = { secede_province = FIN }
+			338 = { secede_province = FIN }
+			339 = { secede_province = FIN }
+			340 = { secede_province = FIN }
+			341 = { secede_province = FIN }
+			342 = { secede_province = FIN }
+			343 = { secede_province = FIN }
+			344 = { secede_province = FIN }
+			345 = { secede_province = FIN }
+			346 = { secede_province = FIN }
+			347 = { secede_province = FIN }					
+			
+			
+			336 = {
+				remove_core = RUS
+			}
+			337 = {
+				remove_core = RUS
+			}
+			338 = {
+				remove_core = RUS
+			}		
+			339 = {
+				remove_core = RUS
+			}
+			340 = {
+				remove_core = RUS
+			}
+			341 = {
+				remove_core = RUS
+			}
+			342 = {
+				remove_core = RUS
+			}		
+			343 = {
+				remove_core = RUS
+			}
+			344 = {
+				remove_core = RUS
+			}
+			345 = {
+				remove_core = RUS
+			}	
+			346 = {
+				remove_core = RUS
+			}
+			347 = {
+				remove_core = RUS
+			}			
+			
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

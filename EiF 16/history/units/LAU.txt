@@ -1,0 +1,21 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Defense Forces"
+location = 2295
+regiment = {
+name = "Defense Brigade"
+type = infantry
+home = 2295
+}
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

@@ -1,0 +1,5 @@
+#;;;;;;;;;;;;;x;;;
+will_receive_title;Request A Grant;;;;;;;;;;;;x;;;
+will_receive_desc;This decision will grant you 500k, this decision can't be used more than once. Great powers can request 1M grant, decisions do not stack.;;;;;;;;;;;;x;;;
+OR_title;Great power grant;;;;;;;;;;;;x;;;
+OR_desc;This decision will grant you 500k, this decision can't be used more than once. Non-great power nations can request 500k grant, decisions do not stack.;;;;;;;;;;;;x;;;

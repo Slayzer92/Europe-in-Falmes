@@ -1,0 +1,199 @@
+** GENERAL **
+
+0. Generals reworked, trait pannel now shows stats(attack and defense) instead of traits which are listed below
+1. Number of national focuses increased per accepted pop, pretty much only requirement is tech
+2. No jingoism requirement for adding wargoals
+3. Emigration geatly reduced
+4. Province liferatings adjusted in Africa and Asia(India and China have less)
+5. Rebels reworked: Rebelions occur less frequent, require more pop support, once rebels spawn their support will slowly go down(if rebel count is low they will disband after a month), however rebel stacks are significantly larger now
+6. Militancy impact from wrong reform reduced
+7. Once rebel stack is beaten in battle rebel group will lose support of significant amount of their supports within pops
+8. Laissez faire buffed:
+- Bonuses increased
+- Minimal number of factories per state before startign to delete increased
+- Factory upgrade employee factor decreased (Should make capitalists upgrade factories more often than building new ones)
+9. War reparations last 3 years instead of 5, they are not automatically added to great wars, but can be added as special CB that costs 1 infamy
+10. Assimilation rate increased
+11. All tech schools provide larger bonuses/reduction to respective tech trees
+12. Crissis can only occur during colonization on a contested colony
+13. Reforms are reworked and give various bonuses, education and healthcare don't provide education/popgrowth boosts anymore.
+14. Pop promotion from national focus increased.
+15. Benefits to tiny, small, medium nations.
+16. Diplomat travel time is 1 day.
+17. Generals cost 30 points.
+
+** CBs and Decisions **
+
+0. Old CBs require slightly less infamy
+1. Added Minor conquest CB: Costs 8 infamy can be used on countries with less than 400k pops
+2. Added Take capital CB
+3. Added Acquire small state CB
+4. Added Demand reparations CB
+5. Added Demand small concession CB
+6. Grants decision: Provides 1 million pounds to great powers and 500k to rest of the nations, this is in original version of the mod, there is an alternate version in which grants are used for money transffers between players
+7. Most country formations don't require state and government or Great power status
+
+** REGIONAL BALANCE **
+
+* EUROPE *
+1. UNITED KINGDOM
+- Irish and Anglo Canadian accepted pops
+- Comonwealth released, South parts of India still owned by UK
+- Removed crossing between France and Britain
+2. FRANCE
+- French Canadian accepted pop
+- Coastal states splits, more ports can be built
+3. NETHERLANDS
+- Starts with Formosa
+4. BELGIUM
+- Starts with colonies in Africa
+6. SPAIN
+- Catalan and Basque accepted pops
+- South America starts in Spanish sphere
+- "La Guardia Civil" now adds Afro Caribeno, Afro Caribbean and Caribeno as accepted cultures
+7. PORTUGAL
+- Gold in Lisbon, Coal in Coimbra
+- Colonial possesions increasead
+- Has unique tech school
+- Has a state capitalism party at start
+8. PRUSSIA
+- Hannover starts in Prussian sphere
+- Number of coastal states in Germany increased, more ports can be built
+9. AUSTRIA
+- Starts with more cores
+- Czech accepted culture
+- Krakow annexed into Austria
+- Lost parts of Moldova
+- Austria Hungary now has a state capitalism party
+10. TWO SICILIES
+- Italian formation changed, can form Italy if owns Rome, Naples and Palermo
+11. SERBIA
+- New decision, "Vuk Karadzic reform" improves literacy gain
+- Starts with Bosnia, Montenegro, South Serbia and Macedonia
+- Has unique tech school
+- Improved starting tech
+12. ROMANIA
+- Starts unified(Wallachia, Moldova, Dobrudja and parts of Austrian Moldova)
+- Improved starting tech
+13. GREECE
+- Starts with all of land needed for Megali idea
+- Has unique tech school
+- Improved starting tech
+14. OTTOMAN EMPIRE
+- Lost all of Balkans(except for Thrace), Albania and Bulgaria start independent
+- Egypt and Arabian peninsula annexed into Ottomans
+- Starts with Misiri, Mashriqi and Kurdish as accepted cultures
+- Decision to open Bosphorus canal which changes RGO in Istanbul to gold
+15. POLAND
+- Starts independent
+- Russian cores on Masovia and Wielkopolskie removed
+- PLC no longer has cores on Russian, Prussian and Austrian lands
+16. RUSSIA
+- Lost parts of Poland
+- Starts with few more colonies in Asia(Minor provinces added to already owned states)
+- States in Siberia merged into 2 states
+17. SWITZERLAND
+- Starts with South German, French and North Italian as accepted cultures
+
+* ASIA AND INDIA *
+1. PERSIA
+- Starts civilized
+- RGOs greatly improved
+- Starts with Azerbejani, Baluchi and Pashtun as accepted cultures
+- Rise Persia decision adds Tajik and Hazara as accepted cultures, grants cores on surrounding lands
+2. INDIA
+- Most minors released from UK, all of them start civilized with poor tech
+- Slightly worse RGOs
+3. HYDERBAD
+- Civilized
+- Decision to form Bahmanis
+4. SIKH EMPIRE
+- Civilized
+- Decision to form Pakistan
+5. BASTAR
+- Civilized
+- Decision to form Bengal
+6. THAILAND
+- New formable decision, can be done by Siam, Burma and Dai Nam, unifies entire region once enacted
+7. CHINA
+- Slightly worse RGOs
+- Split into multiple Chinese countries, all of them can form China if they own all Chinese minor capitals
+- All minors start with poor tech
+- Tibet and Mongolia start with better tech than other Chinese states
+8. KOREA
+- Starts civilized with average tech
+9. JAPAN
+- Starts civilized with poor tech
+
+* AFRICA *
+- Improved RGOs, more coal, iron and gold
+- Carthage is a new formable by Tunis, Morocco or Algeria
+- Sokoto removed from the map
+
+* AMERICA *
+1. MEXICO
+- Decision to form Mexican Empire now adds Nahua, Zapotec and Tarascan as accepted cultures
+- Starts with improved tech
+- USA now only cordial with Texas, easier for Mexico to win the war
+2. USA has less coastal states
+3. COLOMBIA
+- No longer needs to be Great power to form Gran Colombia
+
+** TECHNOLOGY **
+
+1. MILITARY
+- Gas defence moved to infiltration
+- All the techs improved giving more pips to units
+- Initial combat width increased
+- Can no longer get colonial negotiations through military techs
+2. NAVAL
+- All stats on ships greatly improved from naval technologies
+- Colonial negotiations can only be researched through naval techs
+- Steamer convoy, clipper convoy and fish production bonuses added to Naval Science
+3. COMMERCE
+- Higher tax benefits
+- Factory production from techs improved
+4. CULTURE
+- Shared prestige from Aesthetics techs increased
+- Research points from Philosophy techs decreased
+- Biologism now grants 15% education boost instead of 50% in vanilla
+- Political thought techs provide small boost to research points, have less affect to rebel organisation in late game
+5. INDUSTRY
+- Power tech tree improved, in addition to production efficiency it now increases mine and farm size
+- Mechanisation and Metalurgy provide more production bonuses
+
+** COMBAT **
+
+1. Increased starting combat width
+2. All units consumption increased, especially in terms of ammunition
+3. Starting price of artillery increased
+4. Soldier pips changed, list with base stats is in following format, unit name/attack/defense/recon
+	IRR 2/2/0
+	INF 4/6/0
+	CAV 3/1/1
+	GUA 12/4/0
+	DRA 5/4/1
+	CUI 11/3/0
+	HUS 6/3/2
+	TAN 30/15/0
+	PLA 35/12/4
+5. Gas attack modifier reduced to 2
+6. Forts are far more expensive
+7. Damage taken by pops increased(means your units will run out of manpower more quickly after suffering casualties)
+
+** NAVY **
+1. Supply limit per ship increased drastically
+2. Heavy ships are tied down to number of ports in core provinces, means that colonies and uncored land contribute to naval forcelimit much less
+3. Naval bases are far more expensive
+4. Maximum organisation per ship is no longer 100%, instead each ship type has it's own max organisation to repesent the ship "health", this means that ships(especially early game and transports) are going to be destroyed in battles much quicker
+5. Base naval supply range decreased, range from ports and techs increased
+
+** BUILDINGS AND GOODS **
+1. Railroads are more expensive both in terms of cash and resources needed to build them
+2. Factories cost is reworked, machine parts, lumber mill and cement factories no longer require machine parts to be build
+3. Factory throughput bonus from goods and other factories in states greatly increased
+4. Cotton and wool are required for fabric(textile) production
+5. Timber, artillery, canned food, fish, cattle and ammunition consumption increased
+6. All pops require more goods for their basic needs, for example if your country can't get enough grain pops will starve
+7. There are more provinces with sulphur, coal, iron, grain and gold in the world
+
