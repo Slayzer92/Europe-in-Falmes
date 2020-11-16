@@ -1,0 +1,7 @@
+owner = XIN
+controller = XIN
+add_core = XIN
+add_core = CHI
+trade_goods = tea
+life_rating = 30
+

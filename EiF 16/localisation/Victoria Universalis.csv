@@ -1,0 +1,47 @@
+;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+take_capital;Take Capital;;;;;;;;;;;;;x
+take_capital_setup;Take Capital;;;;;;;;;;;;;x
+take_capital_short;Take Capital;;;;;;;;;;;;;x
+take_capital_desc;Take the capital state of a country;;;;;;;;;;;;;x
+conquest_small;Minor Conquest;;;;;;;;;;;;;x
+conquest_small_setup;Minor Conquest;;;;;;;;;;;;;x
+conquest_small_short;Minor Conquest;;;;;;;;;;;;;x
+conquest_small_desc;Annex a nation with less than 400k POPs;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli;Demand Chinese Concession;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli_setup;Demand Chinese Concession;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli_short;Demand Chinese Concession;;;;;;;;;;;;;x
+demand_chinese_concession_casus_belli_description;Take a colonial state in Formosa, Hong Kong, Manchuria, Tibet, or Xinjiang;;;;;;;;;;;;;x
+tiny_nation;Tiny Nation;;;;;;;;;;;;;x
+small_nation;Small Nation;;;;;;;;;;;;;x
+medium_nation;Medium Nation;;;;;;;;;;;;;x
+average_nation_tariffs;Average Nation Tariff Cap;;;;;;;;;;;;;x
+large_nation;Large Nation;;;;;;;;;;;;;x
+large_nation_tariffs;Large Nation Tariff Cap;;;;;;;;;;;;;x
+empire;Empire;;;;;;;;;;;;;x
+empire_tariffs;Empire Tariff Cap;;;;;;;;;;;;;x
+superpower;Superpower;;;;;;;;;;;;;x
+superpower_tariffs;Superpower Tariff Cap;;;;;;;;;;;;;x
+hegemon;Hegemon;;;;;;;;;;;;;x
+hegemon_tariffs;Hegemon Tariff Cap;;;;;;;;;;;;;x
+save_the_nation0.5;Revanchism;;;;;;;;;;;;;x
+save_the_nation1;Revanchism;;;;;;;;;;;;;x
+save_the_nation1.5;Revanchism;;;;;;;;;;;;;x
+save_the_nation2;Revanchism;;;;;;;;;;;;;x
+save_the_nation2.5;Revanchism;;;;;;;;;;;;;x
+save_the_nation3;Revanchism;;;;;;;;;;;;;x
+save_the_nation3.5;Revanchism;;;;;;;;;;;;;x
+save_the_nation4;Revanchism;;;;;;;;;;;;;x
+save_the_nation4.5;Revanchism;;;;;;;;;;;;;x
+save_the_nation5;Revanchism;;;;;;;;;;;;;x
+one_year_draft_unciv;One Year Draft;;;;;;;;;;;;;x
+two_year_draft_unciv;Two Year Draft;;;;;;;;;;;;;x
+four_year_draft_unciv;Four Year Draft;;;;;;;;;;;;;x
+mandatory_service_unciv;Mandatory Service;;;;;;;;;;;;;x
+taxation_1875;Midgame Taxation Cap;;;;;;;;;;;;;x
+non_free_trade_tariffs_1875;Midagme Tariff Cap;;;;;;;;;;;;;x
+taxation_1900;Lategame Taxation Cap;;;;;;;;;;;;;x
+non_free_trade_tariffs_1900;Lategame Tariff Cap;;;;;;;;;;;;;x
+global_population_nerf_1900;Global Population Normalization;;;;;;;;;;;;x
+global_population_nerf_1910;Global Population Normalization;;;;;;;;;;;;x
+global_population_nerf_1920;Global Population Normalization;;;;;;;;;;;;x
+global_population_nerf_1930;Global Population Normalization;;;;;;;;;;;;x

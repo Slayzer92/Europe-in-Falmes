@@ -1,0 +1,65 @@
+	political_decisions = {
+	form_union_latinoamericana = {
+	picture = lau_formation
+		potential = {
+			is_culture_group = latin_american_cultures			
+			NOT = {
+				exists = LAU
+				has_global_flag = formed_latinamerican_union
+			}
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			2295 = { #Lima
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+				}
+			}
+			2324 = { #Santiago
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+				}
+			}
+			2313 = { #Chuquisaca
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+				}
+			}
+			2348 = { #Beunos Aires
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+				}
+			}
+
+		}
+		
+		effect = {
+			prestige = 120
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = south_andean
+						primary_culture = platinean
+						}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}	
+			add_accepted_culture = south_andean
+			add_accepted_culture = platinean
+			add_accepted_culture = north_andean
+			add_accepted_culture = central_american
+			add_accepted_culture = caribeno
+			
+			change_tag = LAU
+			set_global_flag = formed_latinamerican_union
+		}
+	}

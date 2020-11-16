@@ -1,0 +1,58 @@
+political_decisions = {
+	form_thailand = {
+	picture = thailand_formation
+	potential = {
+		OR = {
+						primary_culture = thai
+						primary_culture = vietnamese
+						primary_culture = khmer
+						primary_culture = burmese
+						primary_culture = malay
+			}
+			NOT = {
+				exists = TAI
+			}
+		} 
+		allow = {
+			war = no
+			OR = {
+						primary_culture = thai
+						primary_culture = vietnamese
+						primary_culture = khmer
+						primary_culture = burmese
+						primary_culture = malay
+				}
+				owns = 1346
+				owns = 1332
+				owns = 1369
+		}
+		effect = {
+			prestige = 50
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = thai
+						primary_culture = vietnamese
+						primary_culture = khmer
+						primary_culture = burmese
+						primary_culture = malay
+						}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}	
+				add_accepted_culture = thai
+				add_accepted_culture = vietnamese
+				add_accepted_culture = khmer
+				add_accepted_culture = burmese
+				add_accepted_culture = malay
+	
+			change_tag = TAI
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

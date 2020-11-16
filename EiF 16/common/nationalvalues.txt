@@ -1,0 +1,18 @@
+nv_order = {
+	mobilisation_size = 0.04
+	mobilisation_economy_impact = 1.0
+}
+
+nv_liberty = {
+	mobilisation_size = 0.04
+	mobilisation_economy_impact = 1.0
+}
+
+nv_equality = {
+	mobilisation_size = 0.04
+	mobilisation_economy_impact = 1.0
+}
+for_king_and_the_empire = {
+	mobilisation_size = 0.08
+	mobilisation_economy_impact = 2.0
+}

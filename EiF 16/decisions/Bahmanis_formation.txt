@@ -1,0 +1,85 @@
+political_decisions = {
+	form_Bahmanis = {
+	picture = bahmanis_formation
+	potential = {
+			tag = HYD
+			NOT = {
+				exists = BAH
+			}
+		} 
+		allow = {
+			war = no
+			tag = HYD
+				owns = 1283
+				owns = 1313
+				owns = 1277
+		}
+		effect = {
+			prestige = 50
+				1283 = {
+					add_core = BAH
+						}
+				1313 = {
+					add_core = BAH
+						}
+				1277 = {
+					add_core = BAH
+						}
+				1275 = {
+					add_core = BAH
+						}
+				1276 = {
+					add_core = BAH
+						}
+				1271 = {
+					add_core = BAH
+						}
+				1270 = {
+					add_core = BAH
+						}
+				1272 = {
+					add_core = BAH
+						}
+				1298 = {
+					add_core = BAH
+						}	
+				1299 = {
+					add_core = BAH
+						}
+				1297 = {
+					add_core = BAH
+						}
+				1300 = {
+					add_core = BAH
+						}	
+				1301 = {
+					add_core = BAH
+						}
+				1302 = {
+					add_core = BAH
+						}
+				1303 = {
+					add_core = BAH
+						}	
+				1308 = {
+					add_core = BAH
+						}		
+				1315 = {
+					add_core = BAH
+						}
+				1314 = {
+					add_core = BAH
+						}	
+				1316 = {
+					add_core = BAH
+						}								
+				badboy = -10
+				
+				add_accepted_culture = kanauji
+			change_tag = BAH
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

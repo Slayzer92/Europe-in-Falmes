@@ -1,0 +1,6 @@
+owner = KUT
+controller = KUT
+add_core = HND
+add_core = KUT
+trade_goods = fish
+life_rating = 25

@@ -1,0 +1,98 @@
+political_decisions = {
+
+	
+	rise_of_the_persian_empire = {
+		
+		potential = {
+			tag = PER
+			NOT = {
+				has_country_flag = rise_of_persia
+			}
+		}
+		
+		allow = {
+			military_score = 100
+			prestige = 100
+			war = no
+		}
+		
+		effect = {
+			add_accepted_culture = tajik
+			add_accepted_culture = hazara
+			add_accepted_culture = baluchi
+			set_country_flag = rise_of_persia
+			
+				1212 = {
+					add_core = PER
+						}
+				1214 = {
+					add_core = PER
+						}
+				1213 = {
+					add_core = PER
+						}
+				1215 = {
+					add_core = PER
+						}
+				1217 = {
+					add_core = PER
+						}
+				1209 = {
+					add_core = PER
+						}
+				1210 = {
+					add_core = PER
+						}
+				1211 = {
+					add_core = PER
+						}
+				1216 = {
+					add_core = PER
+						}
+				1220 = {
+					add_core = PER
+						}
+				1221 = {
+					add_core = PER
+						}
+				1222 = {
+					add_core = PER
+						}		
+				1219 = {
+					add_core = PER
+						}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rise_of_the_egyptian_empire = {
+		
+		potential = {
+			tag = EGY
+			NOT = {
+				has_country_flag = rise_of_egypt
+			}
+		}
+		
+		allow = {
+			military_score = 100
+			prestige = 100
+			war = no
+		}
+		
+		effect = {
+			add_accepted_culture = sudanese
+			add_accepted_culture = amhara
+			add_accepted_culture = oromo
+			add_accepted_culture = somali
+			set_country_flag = rise_of_egypt
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	
+}

@@ -1,0 +1,78 @@
+political_decisions = {
+	form_Bengal = {
+	picture = bengal_formation
+	potential = {
+			tag = BAS
+			NOT = {
+				exists = BEN
+			}
+		} 
+		allow = {
+			war = no
+			tag = BAS
+				owns = 1251
+				owns = 1261
+				owns = 1257
+		}
+		effect = {
+			prestige = 50
+				1261 = {
+					add_core = BEN
+						}
+				1257 = {
+					add_core = BEN
+						}
+				1249 = {
+					add_core = BEN
+						}
+				1263 = {
+					add_core = BEN
+						}
+				1262 = {
+					add_core = BEN
+						}
+				1261 = {
+					add_core = BEN
+						}
+				1305 = {
+					add_core = BEN
+						}
+				1279 = {
+					add_core = BEN
+						}
+				1254 = {
+					add_core = BEN
+						}	
+				1257 = {
+					add_core = BEN
+						}
+				2566 = {
+					add_core = BEN
+						}
+				1306 = {
+					add_core = BEN
+						}	
+				1307 = {
+					add_core = BEN
+						}
+				1250 = {
+					add_core = BEN
+						}
+				1248 = {
+					add_core = BEN
+						}	
+				1247 = {
+					add_core = BEN
+						}							
+				badboy = -10
+				
+				add_accepted_culture = oriya
+				add_accepted_culture = bihari
+				add_accepted_culture = telegu
+			change_tag = BEN
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

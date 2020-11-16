@@ -1,0 +1,75 @@
+political_decisions = {
+	form_Pakistan = {
+	picture = pakistan_formation
+	potential = {
+			tag = PAN
+			NOT = {
+				exists = PAK
+			}
+		} 
+		allow = {
+			war = no
+			tag = PAN
+				owns = 1227
+				owns = 1265
+				owns = 1288
+		}
+		effect = {
+			prestige = 50
+				1227 = {
+					add_core = PAK
+						}
+				1265 = {
+					add_core = PAK
+						}
+				1288 = {
+					add_core = PAK
+						}
+				1293 = {
+					add_core = PAK
+						}
+				1295 = {
+					add_core = PAK
+						}
+				1269 = {
+					add_core = PAK
+						}
+				1289 = {
+					add_core = PAK
+						}
+				1290 = {
+					add_core = PAK
+						}
+				1266 = {
+					add_core = PAK
+						}
+				1267 = {
+					add_core = PAK
+						}
+				1293 = {
+					add_core = PAK
+						}
+				1235 = {
+					add_core = PAK
+						}		
+				1264 = {
+					add_core = PAK
+						}
+				1269 = {
+					add_core = PAK
+						}
+				1268 = {
+					add_core = PAK
+						}	
+						
+				badboy = -10
+				
+				add_accepted_culture = rajput
+				add_accepted_culture = sindi
+			change_tag = PAK
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

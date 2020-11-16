@@ -1,0 +1,58 @@
+political_decisions = {
+	form_china = {
+	picture = china_formation
+	potential = {
+		OR = {
+						primary_culture = beifaren
+						primary_culture = manfaren
+						primary_culture = zhuang
+						primary_culture = yue
+			}
+			NOT = {
+				exists = CHI
+			}
+		} 
+		allow = {
+			war = no
+			OR = {
+						primary_culture = beifaren
+						primary_culture = manfaren
+						primary_culture = zhuang
+						primary_culture = yue
+				}
+				owns = 2062
+				owns = 1576
+				owns = 1563
+				owns = 1470
+				owns = 1537
+				owns = 1502
+				owns = 1601				
+		}
+		effect = {
+			prestige = 100
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = beifaren
+						primary_culture = manfaren
+						primary_culture = zhuang
+						primary_culture = yue
+						}
+					NOT = {
+						tag = THIS
+					}
+				}				
+				annex_to = THIS
+			}	
+				add_accepted_culture = beifaren
+				add_accepted_culture = manfaren
+				add_accepted_culture = zhuang
+				add_accepted_culture = yue
+				add_accepted_culture = manchu
+			change_tag = CHI
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

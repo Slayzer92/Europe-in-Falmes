@@ -1,0 +1,51 @@
+political_decisions = {
+	OR = {
+	picture = grants
+	will_receive = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_country_flag = will_receive_grants }
+			is_greater_power = yes
+			}
+		
+		allow = { 
+			NOT = { has_country_flag = will_receive_grants } 
+			ai = no
+			is_greater_power = yes
+			}
+		effect = {
+			money = 1000000
+			set_country_flag = will_receive_grants
+
+
+		}
+		
+
+	}
+	
+	will_receive = {
+	picture = grants
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_country_flag = will_receive_grants }
+			is_greater_power = no
+			}
+		
+		allow = { 
+			NOT = { has_country_flag = will_receive_grants } 
+			ai = no
+			is_greater_power = no
+			}
+		effect = {
+			money = 500000
+			set_country_flag = will_receive_grants
+
+
+		}
+		
+
+	}	
+	}
+}

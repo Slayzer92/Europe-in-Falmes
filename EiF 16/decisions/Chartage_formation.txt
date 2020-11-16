@@ -1,0 +1,167 @@
+political_decisions = {
+	form_carthage = {
+	picture = carthage_formation
+	potential = {
+		OR = {
+						primary_culture = maghrebi
+			}
+			NOT = {
+				exists = CAR
+			}
+		} 
+		allow = {
+			war = no
+			OR = {
+						primary_culture = maghrebi
+				}
+				owns = 1725
+				owns = 1708
+				owns = 1680			
+		}
+		effect = {
+			prestige = 100
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = maghrebi
+						}
+					NOT = {
+						tag = THIS
+					}
+				}				
+				annex_to = THIS
+			}	
+				add_accepted_culture = maghrebi
+				add_accepted_culture = berber
+				add_accepted_culture = african_minor
+				add_accepted_culture = tuareg
+				add_accepted_culture = maures
+				
+				1716 = { secede_province = THIS }
+				1717 = { secede_province = THIS }
+				1718 = { secede_province = THIS }
+				1719 = { secede_province = THIS }
+				1720 = { secede_province = THIS }
+				1721 = { secede_province = THIS }
+				1722 = { secede_province = THIS }
+				1723 = { secede_province = THIS }
+				1773 = { secede_province = THIS }
+				1774 = { secede_province = THIS }
+				1782 = { secede_province = THIS }
+				1781 = { secede_province = THIS }
+				1806 = { secede_province = THIS }
+				2609 = { secede_province = THIS }
+				1803 = { secede_province = THIS }
+				1805 = { secede_province = THIS }
+				1807 = { secede_province = THIS }
+				1808 = { secede_province = THIS }
+				1809 = { secede_province = THIS }
+				1812 = { secede_province = THIS }				
+				1813 = { secede_province = THIS }
+				1814 = { secede_province = THIS }
+				1817 = { secede_province = THIS }
+				1810 = { secede_province = THIS }
+				1811 = { secede_province = THIS }
+				1815 = { secede_province = THIS }
+				1821 = { secede_province = THIS }
+				1824 = { secede_province = THIS }
+				1825 = { secede_province = THIS }
+				1826 = { secede_province = THIS }
+				1738 = { secede_province = THIS }
+				1739 = { secede_province = THIS }
+				1740 = { secede_province = THIS }
+				2585 = { secede_province = THIS }
+				1731 = { secede_province = THIS }
+				1732 = { secede_province = THIS }				
+				1733 = { secede_province = THIS }
+				1734 = { secede_province = THIS }
+				1735 = { secede_province = THIS }
+				1736 = { secede_province = THIS }
+				1737 = { secede_province = THIS }
+				1741 = { secede_province = THIS }
+				1742 = { secede_province = THIS }
+				1743 = { secede_province = THIS }
+				1744 = { secede_province = THIS }
+				1724 = { secede_province = THIS }
+				1714 = { secede_province = THIS }
+				1480 = { secede_province = THIS }
+				1779 = { secede_province = THIS }
+				1775 = { secede_province = THIS }
+				1776 = { secede_province = THIS }
+				1777 = { secede_province = THIS }
+				1778 = { secede_province = THIS }
+				1780 = { secede_province = THIS }
+				
+				1725 = {
+				change_province_name = "Carthage"
+				state_scope = {
+					change_region_name = "Carthage"
+				}	
+				1689 = {
+				add_core = CAR
+				}
+				762 = {
+				add_core = CAR
+				}
+				762 = {
+				add_core = CAR
+				}
+				763 = {
+				add_core = CAR
+				}
+				764 = {
+				add_core = CAR
+				}
+				854 = {
+				add_core = CAR
+				}
+				765 = {
+				add_core = CAR
+				}
+				766 = {
+				add_core = CAR
+				}
+				502 = {
+				add_core = CAR
+				}
+				513 = {
+				add_core = CAR
+				}
+				514 = {
+				add_core = CAR
+				}
+				515 = {
+				add_core = CAR
+				}
+				512 = {
+				add_core = CAR
+				}
+				506 = {
+				add_core = CAR
+				}
+				1689 = {
+				add_core = CAR
+				}
+				1704 = {
+				add_core = CAR
+				}
+				1706 = {
+				add_core = CAR
+				}
+				1701 = {
+				add_core = CAR
+				}
+				1709 = {
+				add_core = CAR
+				}				
+				
+				}				
+			change_tag = CAR
+			capital = 1725
+			treasury = 300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}
