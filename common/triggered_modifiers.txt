@@ -56,6 +56,23 @@ medium_nation  = {
 	tax_efficiency = 0.10 #10% boost
 	icon = 6
 }
+large_nation = {
+	trigger = {
+		total_pops = 25000000 #25 million POPs
+		NOT = { 
+			OR = {
+				total_pops = 7500000 #7.5 million POPs/30 Million population
+				civilized = no
+			}
+			
+		}
+	}
+	global_population_growth = -0.001
+	mobilisation_economy_impact = 0.10
+	supply_consumption = 0.10
+	tax_efficiency = -0.02
+	icon = 6
+}
 
 unciv_boost  = {
 	trigger = {

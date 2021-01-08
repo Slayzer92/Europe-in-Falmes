@@ -3,5 +3,5 @@ controller = TPG
 add_core = TPG
 add_core = CHI
 trade_goods = timber
-life_rating = 30
+life_rating = 25
 

@@ -197,3 +197,16 @@
 6. All pops require more goods for their basic needs, for example if your country can't get enough grain pops will starve
 7. There are more provinces with sulphur, coal, iron, grain and gold in the world
 
+
+### EUROPE IN FALMES 17 ###
+1. Unit pips reworked, combat is more balanced
+2. USA has new national value, reduced mobilisation size
+3. All the new world nations have same same starting reforms
+4. Re-introduced Large nation modifier (reduced popgrowth and taxation)
+5. Chinese coal and iron RGOs moved to less populated provinces
+6. Africa has more coal, iron and sulphur RGOs
+7. South America has more iron
+8. Canada has more coal
+9. Emigrations nerfed
+10. Chinese provinces have less liferating
+11. Last 2 army techs available earlier (1900 techs moved to 1890, last tech row available from 1912)
