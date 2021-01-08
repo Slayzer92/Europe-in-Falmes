@@ -16,3 +16,7 @@ for_king_and_the_empire = {
 	mobilisation_size = 0.08
 	mobilisation_economy_impact = 2.0
 }
+american_dream = {
+	mobilisation_size = 0.005
+	mobilisation_economy_impact = 0.5
+}

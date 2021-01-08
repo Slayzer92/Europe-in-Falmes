@@ -2,7 +2,7 @@
 
 add_core = MGL
 trade_goods = cotton
-life_rating = 30
+life_rating = 25
 
 owner = MGL
 controller = MGL

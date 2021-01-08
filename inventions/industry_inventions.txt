@@ -1001,29 +1001,7 @@ genetics:_heredity = {
 		pop_growth = 0.0001
 	}
 }
-clinical_thermometers_and_binaural_stethoscopes = {
-	limit = { medicine = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			inorganic_chemistry = 1
-		}
-		modifier = {
-			factor = 2
-			organized_factories = 1
-		}
-		modifier = {
-			factor = 4
-			any_neighbor_country = {
-				invention = clinical_thermometers_and_binaural_stethoscopes
-			}
-		}
-	}
-	effect = {
-		pop_growth = 0.0002
-	}
-}
+
 prophylaxis_against_malaria = {
 	limit = { medicine = 1 }
 	chance = {
@@ -1080,6 +1058,29 @@ artificial_fertilizers = {
 			fertilizer = 0.05
 		}
 	}
+clinical_thermometers_and_binaural_stethoscopes = {
+	limit = { medicine = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			inorganic_chemistry = 1
+		}
+		modifier = {
+			factor = 2
+			organized_factories = 1
+		}
+		modifier = {
+			factor = 4
+			any_neighbor_country = {
+				invention = clinical_thermometers_and_binaural_stethoscopes
+			}
+		}
+	}
+	effect = {
+		pop_growth = 0.0002
+	}
+}	
 }
 nitroglycerin = {
 	limit = { inorganic_chemistry = 1 }
@@ -1247,7 +1248,7 @@ x_rays = {
 		}
 	}
 	effect = {
-		pop_growth = 0.0001
+		pop_growth = 0.0002
 		land_attrition = -0.02 
 	}
 }

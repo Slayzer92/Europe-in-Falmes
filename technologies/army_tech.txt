@@ -212,7 +212,7 @@ deep_defense_system = {
 }
 infiltration = {
 	area = army_doctrine
-	year = 1900
+	year = 1890
 	cost = 18000
 	unciv_military = yes
 		
@@ -259,7 +259,7 @@ infiltration = {
 }
 modern_army_doctrine = {
 	area = army_doctrine
-	year = 1919
+	year = 1912
 	cost = 21600
 	unciv_military = yes
 	
@@ -490,7 +490,7 @@ machine_guns = {
 }
 bolt_action_rifles = {
 	area = light_armament
-	year = 1900
+	year = 1890
 	cost = 18000
 	unciv_military = yes
 	unit = 1
@@ -532,7 +532,7 @@ bolt_action_rifles = {
 }
 modern_divisional_structure = {
 	area = light_armament
-	year = 1919
+	year = 1912
 	cost = 21600
 	unciv_military = yes
 
@@ -621,7 +621,7 @@ iron_muzzle_loaded_artillery = {
 	cost = 7200
 	unciv_military = yes
 	artillery = {
-		attack = 0.25
+		attack = 0.5
 		support = 0.5
 		supply_consumption = 0.1 #was 0.15
 	}
@@ -665,7 +665,7 @@ iron_breech_loaded_artillery = {
 	cost = 10800
 	unciv_military = yes
 	artillery = {
-		attack = 0.25
+		attack = 1.5
 		support = 0.5
 		supply_consumption = 0.15 #was 0.3
 	}
@@ -708,7 +708,7 @@ steel_breech_loaded_artillery = {
 	cost = 14400
 	unciv_military = yes
 	artillery = {
-		attack = 0.5
+		attack = 1.5
 		support = 0.5
 		supply_consumption = 0.15 #was 0.3
 	}
@@ -748,12 +748,12 @@ steel_breech_loaded_artillery = {
 }
 indirect_artillery_fire = {
 	area = heavy_armament
-	year = 1900
+	year = 1890
 	cost = 18000
 	unciv_military = yes
 	artillery = {
-		attack = 0.5
-		defence = 0.5
+		attack = 2
+		defence = 2
 		support = 1
 		supply_consumption = 0.10 #was 0.3
 	}
@@ -793,12 +793,12 @@ indirect_artillery_fire = {
 }
 heavy_armament_dunno = {
 	area = heavy_armament
-	year = 1919
+	year = 1912
 	cost = 21600
 	unciv_military = yes
 	artillery = {
 		attack = 0.5
-		defence = 0.5
+		defence = 1
 		support = 1
 		supply_consumption = 0.3
 	}
@@ -1020,7 +1020,7 @@ military_logistics = {
 }
 military_directionism = {
 	area = military_science
-	year = 1900
+	year = 1890
 	cost = 18000
 	unciv_military = yes
 	
@@ -1312,7 +1312,7 @@ army_risk_management = {
 }
 army_nco_training = {
 	area = army_leadership
-	year = 1900
+	year = 1890
 	cost = 18000
 	unciv_military = yes
 	morale = 0.25
@@ -1368,7 +1368,7 @@ army_nco_training = {
 }
 great_war_experience = {
 	area = army_leadership
-	year = 1919
+	year = 1918
 	cost = 21600
 	unciv_military = yes
 	morale = 0.5

@@ -5,7 +5,7 @@ culture = texan
 religion = protestant
 government = democracy
 plurality = 25.0
-nationalvalue = nv_liberty
+nationalvalue = american_dream
 literacy = 0.50
 civilized = yes
 
